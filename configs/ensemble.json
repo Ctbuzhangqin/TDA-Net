@@ -1,0 +1,86 @@
+{
+  "experiment_name": "tda_ensemble",
+  "description": "Ten equally weighted TDA-Net members. Member IDs 1-10 identify released weights, not historical training random seeds. Each member uses its latest checkpoint from five-epoch training.",
+  "members": [
+    {
+      "member_id": 1,
+      "checkpoint": "checkpoints/member1.bin",
+      "config": "configs/member1.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    },
+    {
+      "member_id": 2,
+      "checkpoint": "checkpoints/member2.bin",
+      "config": "configs/member2.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    },
+    {
+      "member_id": 3,
+      "checkpoint": "checkpoints/member3.bin",
+      "config": "configs/member3.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    },
+    {
+      "member_id": 4,
+      "checkpoint": "checkpoints/member4.bin",
+      "config": "configs/member4.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    },
+    {
+      "member_id": 5,
+      "checkpoint": "checkpoints/member5.bin",
+      "config": "configs/member5.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    },
+    {
+      "member_id": 6,
+      "checkpoint": "checkpoints/member6.bin",
+      "config": "configs/member6.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    },
+    {
+      "member_id": 7,
+      "checkpoint": "checkpoints/member7.bin",
+      "config": "configs/member7.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    },
+    {
+      "member_id": 8,
+      "checkpoint": "checkpoints/member8.bin",
+      "config": "configs/member8.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    },
+    {
+      "member_id": 9,
+      "checkpoint": "checkpoints/member9.bin",
+      "config": "configs/member9.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    },
+    {
+      "member_id": 10,
+      "checkpoint": "checkpoints/member10.bin",
+      "config": "configs/member10.json",
+      "training_epochs": 5,
+      "weight": 0.1,
+      "checkpoint_selection": "latest"
+    }
+  ]
+}

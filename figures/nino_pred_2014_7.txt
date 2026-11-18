@@ -1,0 +1,105 @@
+# Raw monthly Nino3.4 SST anomaly forecasts
+# No 3-month running mean has been applied.
+# Forecast start: 2014.07
+# Future lead 1 is the first month after the forecast start.
+# Therefore lead 1 target month is 2014.08
+# Selected NetCDF S: 2014.08 (pre-target)
+# Target = NetCDF S + native L month offset; Lead = target - forecast start.
+# S is one month after the user start; native lead zero is future lead 1.
+
+# COLA-RSMAS-CESM1
+# Source: NMME/CESM1/nino_union: 45 annual SST files; 0 overlapping starts merged by finite mean
+# Climatology: raw Nino3.4 regional SST by initialization calendar month and lead; S in 1991.01-2020.12 (inclusive)
+# Lead RawIndex L Target Nino34
+Lead  1 RawIndex  0 L  0.0 -> 2014.08: 0.2656
+Lead  2 RawIndex  1 L  1.0 -> 2014.09: 0.7722
+Lead  3 RawIndex  2 L  2.0 -> 2014.10: 1.0170
+Lead  4 RawIndex  3 L  3.0 -> 2014.11: 1.0975
+Lead  5 RawIndex  4 L  4.0 -> 2014.12: 1.3632
+Lead  6 RawIndex  5 L  5.0 -> 2015.01: 1.5613
+Lead  7 RawIndex  6 L  6.0 -> 2015.02: 1.5373
+Lead  8 RawIndex  7 L  7.0 -> 2015.03: 1.3443
+Lead  9 RawIndex  8 L  8.0 -> 2015.04: 1.1132
+Lead 10 RawIndex  9 L  9.0 -> 2015.05: 0.9853
+Lead 11 RawIndex 10 L 10.0 -> 2015.06: 0.9766
+Lead 12 RawIndex 11 L 11.0 -> 2015.07: 1.2229
+
+# NASA-GEOSS2S
+# Source: NMME/GEOSS2S/nino_union: 47 annual SST files; 0 overlapping starts merged by finite mean
+# Climatology: raw Nino3.4 regional SST by initialization calendar month and lead; S in 1991.01-2020.12 (inclusive)
+# Lead RawIndex L Target Nino34
+Lead  1 RawIndex  0 L  0.0 -> 2014.08: 0.2425
+Lead  2 RawIndex  1 L  1.0 -> 2014.09: 0.5126
+Lead  3 RawIndex  2 L  2.0 -> 2014.10: 0.7152
+Lead  4 RawIndex  3 L  3.0 -> 2014.11: 0.8153
+Lead  5 RawIndex  4 L  4.0 -> 2014.12: 0.9602
+Lead  6 RawIndex  5 L  5.0 -> 2015.01: 1.0051
+Lead  7 RawIndex  6 L  6.0 -> 2015.02: 0.9048
+Lead  8 RawIndex  7 L  7.0 -> 2015.03: 0.7880
+Lead  9 RawIndex  8 L  8.0 -> 2015.04: 0.6631
+
+# NCEP-CFSv2
+# Source: NMME/NCEP-CFSv2/nino_union: 47 annual SST files; 15 overlapping starts merged by finite mean
+# Climatology: raw Nino3.4 regional SST by initialization calendar month and lead; S in 1991.01-2020.12 (inclusive)
+# Lead RawIndex L Target Nino34
+Lead  1 RawIndex  0 L  0.5 -> 2014.08: 0.3724
+Lead  2 RawIndex  1 L  1.5 -> 2014.09: 0.9174
+Lead  3 RawIndex  2 L  2.5 -> 2014.10: 1.0578
+Lead  4 RawIndex  3 L  3.5 -> 2014.11: 1.2057
+Lead  5 RawIndex  4 L  4.5 -> 2014.12: 1.3369
+Lead  6 RawIndex  5 L  5.5 -> 2015.01: 1.4396
+Lead  7 RawIndex  6 L  6.5 -> 2015.02: 1.3155
+Lead  8 RawIndex  7 L  7.5 -> 2015.03: 1.1637
+Lead  9 RawIndex  8 L  8.5 -> 2015.04: 0.9176
+Lead 10 RawIndex  9 L  9.5 -> 2015.05: 0.6364
+
+# CanSIPS-IC3
+# Source: NMME/CanSIPS-IC3/nino_union: 46 annual SST files; 2 overlapping starts merged by finite mean
+# Climatology: raw Nino3.4 regional SST by initialization calendar month and lead; S in 1991.01-2020.12 (inclusive)
+# Lead RawIndex L Target Nino34
+Lead  1 RawIndex  0 L  0.5 -> 2014.08: 0.3497
+Lead  2 RawIndex  1 L  1.5 -> 2014.09: 0.6819
+Lead  3 RawIndex  2 L  2.5 -> 2014.10: 0.8025
+Lead  4 RawIndex  3 L  3.5 -> 2014.11: 0.8742
+Lead  5 RawIndex  4 L  4.5 -> 2014.12: 0.9996
+Lead  6 RawIndex  5 L  5.5 -> 2015.01: 1.0927
+Lead  7 RawIndex  6 L  6.5 -> 2015.02: 1.1384
+Lead  8 RawIndex  7 L  7.5 -> 2015.03: 1.1482
+Lead  9 RawIndex  8 L  8.5 -> 2015.04: 1.0328
+Lead 10 RawIndex  9 L  9.5 -> 2015.05: 0.9190
+Lead 11 RawIndex 10 L 10.5 -> 2015.06: 0.9155
+Lead 12 RawIndex 11 L 11.5 -> 2015.07: 0.8888
+
+# CanSIPS-IC4
+# Source: NMME/CanSIPS-IC4/nino_union: 38 annual SST files; 0 overlapping starts merged by finite mean
+# Climatology: raw Nino3.4 regional SST by initialization calendar month and lead; S in 1991.01-2020.12 (inclusive)
+# Lead RawIndex L Target Nino34
+Lead  1 RawIndex  0 L  0.0 -> 2014.08: 0.2830
+Lead  2 RawIndex  1 L  1.0 -> 2014.09: 0.5275
+Lead  3 RawIndex  2 L  2.0 -> 2014.10: 0.6748
+Lead  4 RawIndex  3 L  3.0 -> 2014.11: 0.8085
+Lead  5 RawIndex  4 L  4.0 -> 2014.12: 0.8911
+Lead  6 RawIndex  5 L  5.0 -> 2015.01: 0.8857
+Lead  7 RawIndex  6 L  6.0 -> 2015.02: 0.8640
+Lead  8 RawIndex  7 L  7.0 -> 2015.03: 0.9132
+Lead  9 RawIndex  8 L  8.0 -> 2015.04: 0.9461
+Lead 10 RawIndex  9 L  9.0 -> 2015.05: 0.9788
+Lead 11 RawIndex 10 L 10.0 -> 2015.06: 0.9875
+Lead 12 RawIndex 11 L 11.0 -> 2015.07: 0.8920
+
+# GFDL-SPEAR
+# Source: NMME/SPEAR/nino_union: 37 annual SST files; 1 overlapping starts merged by finite mean
+# Climatology: raw Nino3.4 regional SST by initialization calendar month and lead; S in 1991.01-2020.12 (inclusive)
+# Lead RawIndex L Target Nino34
+Lead  1 RawIndex  0 L  0.0 -> 2014.08: 0.3748
+Lead  2 RawIndex  1 L  1.0 -> 2014.09: 0.7304
+Lead  3 RawIndex  2 L  2.0 -> 2014.10: 0.9305
+Lead  4 RawIndex  3 L  3.0 -> 2014.11: 1.0986
+Lead  5 RawIndex  4 L  4.0 -> 2014.12: 1.2062
+Lead  6 RawIndex  5 L  5.0 -> 2015.01: 1.2620
+Lead  7 RawIndex  6 L  6.0 -> 2015.02: 1.1568
+Lead  8 RawIndex  7 L  7.0 -> 2015.03: 1.0619
+Lead  9 RawIndex  8 L  8.0 -> 2015.04: 0.9315
+Lead 10 RawIndex  9 L  9.0 -> 2015.05: 0.8788
+Lead 11 RawIndex 10 L 10.0 -> 2015.06: 0.7883
+Lead 12 RawIndex 11 L 11.0 -> 2015.07: 0.6462

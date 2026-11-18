@@ -1,0 +1,22 @@
+TDA-Net copyright and license scope
+
+Original TDA-Net contributions:
+Copyright (c) 2026 South China University of Technology (华南理工大学).
+The MIT license in LICENSE applies to these original contributions only.
+It does not grant rights to third-party code, datasets or model weights.
+
+ORCA-DL-derived code:
+The model, dataset and training infrastructure includes code adapted from
+ORCA-DL: https://github.com/OpenEarthLab/ORCA-DL
+No explicit code license was found in the supplied ORCA-DL source snapshot.
+Those portions retain their original rights and are not relicensed by the
+TDA-Net MIT license. Permission to redistribute them remains unconfirmed.
+
+Hugging Face Transformers-derived code:
+The training infrastructure, in particular trainer/trainer.py, includes
+code adapted from Transformers 4.28.1.
+Copyright 2020-present the HuggingFace Inc. team.
+Those portions are licensed under the Apache License, Version 2.0;
+see LICENSES/Apache-2.0.txt.
+Source: https://github.com/huggingface/transformers/tree/v4.28.1
+Modified for TDA-Net training, evaluation, metrics and checkpoint handling.

@@ -1,0 +1,132 @@
+{
+  "architectures": [
+    "ORCADLModel"
+  ],
+  "atmo_dims": 2,
+  "atmo_embed_dims": 64,
+  "attn_drop": 0.0,
+  "cswin_cross_gate": false,
+  "cswin_cyclic": false,
+  "cswin_eq_bias": false,
+  "cswin_zonal_ratio": 0.67,
+  "drop_path_rate": 0.2,
+  "drop_rate": 0.0,
+  "embed_dim": 96,
+  "enc_depths": [
+    2,
+    2,
+    2
+  ],
+  "enc_heads": [
+    3,
+    6,
+    12
+  ],
+  "hidden_act": "gelu",
+  "in_chans": [
+    16,
+    16,
+    1,
+    16,
+    16,
+    1
+  ],
+  "in_steps": 1,
+  "inception_band_kernel_size": 11,
+  "inception_branch_ratio": 0.125,
+  "input_shape": [
+    128,
+    360
+  ],
+  "is_moe": true,
+  "is_moe_atmo": false,
+  "is_moe_decoder": true,
+  "is_moe_encoder": true,
+  "lat_space": [
+    -63.5,
+    63.5,
+    128
+  ],
+  "lat_weight_loss": false,
+  "layer_norm_eps": 1e-05,
+  "lg_depths": [
+    2,
+    2
+  ],
+  "lg_heads": [
+    12,
+    12
+  ],
+  "lg_hidden_dim": 1152,
+  "lon_space": [
+    0.5,
+    359.5,
+    360
+  ],
+  "lonlat_emb": false,
+  "loss_type": "rmse",
+  "mask_patch_size": [
+    8,
+    12
+  ],
+  "mask_ratio": 0.8,
+  "max_t": 6,
+  "mlp_ratio": 4.0,
+  "moe_aux_alpha": 0.05,
+  "moe_aux_beta": 1.0,
+  "moe_aux_loss_1": true,
+  "moe_aux_loss_2": true,
+  "mon_hidden_dim": 512,
+  "olma_loss_alpha": 0.02,
+  "out_chans": [
+    16,
+    16,
+    1,
+    16,
+    16,
+    1
+  ],
+  "patch_norm": true,
+  "patch_size": [
+    2,
+    3
+  ],
+  "predict_time_steps": 1,
+  "qk_scale": null,
+  "qkv_bias": true,
+  "sp_moe": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.28.1",
+  "use_absolute_embeddings": true,
+  "use_causal_var_attn": false,
+  "use_cswin": false,
+  "use_cyclic_padding": false,
+  "use_inception": true,
+  "use_land_mask": true,
+  "use_lat_gate": false,
+  "use_mask_token": false,
+  "use_month_emb": true,
+  "use_olma_loss": false,
+  "use_sigmoid": false,
+  "use_wave_shift": false,
+  "var_index": [
+    0,
+    1,
+    0,
+    2,
+    3,
+    1
+  ],
+  "var_list": [
+    "so",
+    "thetao",
+    "tos",
+    "uo",
+    "vo",
+    "zos"
+  ],
+  "window_size": [
+    8,
+    15
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "initialization": "2021_12",
+  "target_months": [
+    "2022_1"
+  ],
+  "member": "single trained member; not the ten-member paper ensemble",
+  "shape": [
+    1,
+    1,
+    128,
+    360
+  ],
+  "finite": true,
+  "minimum": -4.519163131713867,
+  "maximum": 4.913426399230957,
+  "mean": 0.16899293661117554,
+  "device": "cpu",
+  "cpu_threads": 4,
+  "python": "3.9.17",
+  "torch": "2.8.0+cu128",
+  "numpy": "1.24.3",
+  "load_seconds": 11.479363517835736,
+  "inference_seconds": 1.6630778945982456
+}
