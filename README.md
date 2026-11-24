@@ -1,7 +1,5 @@
-# TDA-Net
+# Long-lead ENSO prediction across the spring predictability barrier
 
-Training, inference, evaluation and figure code for TDA-Net, based on
-[ORCA-DL](https://github.com/OpenEarthLab/ORCA-DL).
 
 ## Installation
 
@@ -147,6 +145,4 @@ initialization month; the notebook restores forecasts using each target month.
 
 ## License
 
-Original TDA-Net contributions: © 2026 华南理工大学 (South China University of
-Technology), under the [MIT License](LICENSE). See [NOTICE](NOTICE) for
-third-party code and license scope.
+Original TDA-Net contributions are made available under the MIT License. See [NOTICE](NOTICE) for third-party code and license details.
