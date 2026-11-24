@@ -6,7 +6,7 @@ The MIT license in LICENSE applies to these original contributions only.
 It does not grant rights to third-party code, datasets or model weights.
 
 ORCA-DL-derived code:
-The model, dataset and training infrastructure includes code adapted from
+The dataset from
 ORCA-DL: https://github.com/OpenEarthLab/ORCA-DL
 No explicit code license was found in the supplied ORCA-DL source snapshot.
 Those portions retain their original rights and are not relicensed by the
